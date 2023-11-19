@@ -157,6 +157,7 @@ storiesOf("Appointment", module)
     </Fragment>
   ))
   .add("Header", () => <Header time="12pm" />)
+  console.log("Reached at index.js stories")
   .add("Empty", () => <Empty onAdd={action("onAdd")} />)
   .add("Show", () => (
     <Show
